@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in HTML</title>
+    <link rel="stylesheet" href="My style.css">
+</head>
+<body>
+    <h1>Ip university-student information</h1>
+    <table border="1">
+        <tr>
+            <th>
+                Rollnumber
+            </th>
+            <th>Student name</th>
+            <th>Course</th>
+            <th>Contact number</th>
+        </tr>
+        <tr>
+            <td>1001</td>
+            <td>Yaswanth</td>
+            <td>Java</td>
+            <td>111111111111</td>
+        </tr>
+        <tr>
+            <td>1002</td>
+            <td>Pavan</td>
+            <td>Java</td>
+            <td>222222222</td>
+        </tr>
+        <tr>
+            <td>1002</td>
+            <td>Jagadeesh</td>
+            <td>c++</td>
+            <td>33333333</td>
+        </tr>
+        <tr>
+            <td>1004</td>
+            <td>revanth</td>
+            <td>mech</td>
+            <td>4444444444</td>
+        </tr>
+        <tr>
+            <td>1005</td>
+            <td>Fayaz</td>
+            <td>cse</td>
+            <td>555555555</td>
+        </tr>
+    </table>
+
+    <!-- Rowspan & Colspan demo - Merging of rows/columns-->
+    <h1>Employee Information</h1>
+    <table border="2" cellpadding="15" cellspacing="20">
+        <tr bgcolor="yellow">
+            <th>Employee Id</th>
+            <th>Employee Name</th>
+            <th colspan="2">Technologies</th>
+        </tr>
+        <tr>
+            <td>99901</td>
+            <td>Jhonson</td>
+            <td colspan="2" align="center" >Spring Framework</td>
+        </tr>
+        <tr>
+            <td>88801</td>
+            <td>Mary</td>
+            <td colspan="2" align="center">Angular</td>
+        </tr>
+        <tr>
+            <td>88802</td>
+            <td>Navin</td>
+            <td>Angular</td>
+            <td>Mongo ng</td>
+        </tr>
+        <tr>
+            <td>66801</td>
+            <td>jhon</td>
+            <td colspan="2" align="center">HTML</td>
+        </tr>
+        <tr>
+            <td>55002</td>
+            <td>Bhanu</td>
+            <td>HTML</td>
+            <td>CSS</td>
+        </tr>
+        <tr  bgcolor = "Yellow">
+            <td rowspan="2">44001</td>
+            <td rowspan="2">Alex</td>
+            <td colspan="2">Java Script</td>
+        </tr>
+        <tr>
+            <td bgcolor = "Yellow"   colspan="2"> CSS</td>
+        </tr>
+</table>
+</body>
+</html>
